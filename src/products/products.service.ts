@@ -32,6 +32,8 @@ private products: Product[] = [
 
       ...createProductDto, // นำข้อมูลจาก DTO (name, price, description) มาใส่เลย 
 
+      description: createProductDto.description || '', 
+
     }; 
 
  
@@ -45,8 +47,6 @@ private products: Product[] = [
  
 
   findAll() { 
-
-    // return `This action returns all products`; 
 
     return this.products; 
 
