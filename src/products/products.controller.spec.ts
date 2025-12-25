@@ -21,7 +21,7 @@ describe('ProductsController', () => {
 
 // Mock data for 10 product examples
 const mockProducts = [
-  { id: 1, name: 'Laptop', price: 999.99, description: 'High-performance laptop' },
+  { id: 1, name: 'Laptop', price: 999.99, description: 'High-performance laptop', },
   { id: 2, name: 'Smartphone', price: 699.99, description: 'Latest smartphone model' },
   { id: 3, name: 'Headphones', price: 199.99, description: 'Noise-cancelling headphones' },
   { id: 4, name: 'Tablet', price: 499.99, description: '10-inch tablet' },
